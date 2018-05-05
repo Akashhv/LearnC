@@ -1,19 +1,19 @@
 #include<stdio.h>
 #include<string.h>
 int add(int num1,int num2){
-	int c=num1+num2
+	int c=num1+num2;
 	printf("%d+%d=%d\n"num1,num,c);
 }
 int sub(int num1,int num2){
-	int c=num1-num2
+	int c=num1-num2;
 	printf("%d-%d=%d\n"num1,num2,c);
 }
 int mul(int num1,int num2){
-	int c=num1*num2
+	int c=num1*num2;
 	printf("%d*%d=%d\n"num1,num2,c);
 }
 int div(int num1,int num2){
-	int c=num1/num2
+	int c=num1/num2;
 	printf("%d/%d=%d\n",num1,num2,c);
 }
 int main(){
@@ -31,5 +31,5 @@ int main(){
 		case 4:div(a,b);
 	}
 
-	return 0;	`
+	return 0;
 }
