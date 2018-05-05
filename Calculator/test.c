@@ -26,8 +26,11 @@ int main(){
 	scanf("%d %d",&a,&b);
 	switch(option){
 		case 1:add(a,b);
+		break;
 		case 2:sub(a,b);
+		break;
 		case 3:mul(a,b);
+		break;
 		case 4:div(a,b);
 	}
 
