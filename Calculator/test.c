@@ -1,16 +1,20 @@
 #include<stdio.h>
 #include<string.h>
 int add(int num1,int num2){
-	
+	int c=num1+num2
+	printf("%d+%d=%d\n"num1,num,c);
 }
-int sub(){
-
+int sub(int num1,int num2){
+	int c=num1-num2
+	printf("%d-%d=%d\n"num1,num2,c);
 }
-int mul(){
-
+int mul(int num1,int num2){
+	int c=num1*num2
+	printf("%d*%d=%d\n"num1,num2,c);
 }
-int div(){
-
+int div(int num1,int num2){
+	int c=num1/num2
+	printf("%d/%d=%d\n",num1,num2,c);
 }
 int main(){
 	int option,a,b;
@@ -20,12 +24,12 @@ int main(){
 	scanf("%d",&option);
 	printf("Giff me 2 number :\n");
 	scanf("%d %d",&a,&b);
-	add(a,b);
-	add(5,6);
-	add(6,5);
 	switch(option){
 		case 1:add(a,b);
+		case 2:sub(a,b);
+		case 3:mul(a,b);
+		case 4:div(a,b);
 	}
 
-	return 0;	
+	return 0;	`
 }
