@@ -2,15 +2,15 @@
 #include<string.h>
 int add(int num1,int num2){
 	int c=num1+num2;
-	printf("%d+%d=%d\n"num1,num,c);
+	printf("%d+%d=%d\n",num1,num2,c);
 }
 int sub(int num1,int num2){
 	int c=num1-num2;
-	printf("%d-%d=%d\n"num1,num2,c);
+	printf("%d-%d=%d\n",num1,num2,c);
 }
 int mul(int num1,int num2){
 	int c=num1*num2;
-	printf("%d*%d=%d\n"num1,num2,c);
+	printf("%d*%d=%d\n",num1,num2,c);
 }
 int div(int num1,int num2){
 	int c=num1/num2;
