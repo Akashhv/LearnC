@@ -32,6 +32,7 @@ int main(){
 		case 3:mul(a,b);
 		break;
 		case 4:div(a,b);
+		default:printf("bruh now u gotta restart it\n");
 	}
 
 	return 0;
